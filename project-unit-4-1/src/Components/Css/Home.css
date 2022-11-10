@@ -1,0 +1,15 @@
+* {
+      padding: 0px;
+      margin: 0%;
+      text-decoration: none;
+      /* color:black; */
+}
+
+.Link {
+      color: black;
+}
+
+.slideimg {
+      width: 800px;
+      height: 400px;
+}

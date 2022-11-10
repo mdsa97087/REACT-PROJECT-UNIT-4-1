@@ -1,14 +1,14 @@
 import React from "react";
-import "./Css/Navbar.css"
+import "./Css/Navbar.css";
 
 function Navbar() {
   return (
     <>
       <div
         style={{
-          display:'block',
+          display: "block",
           display: "flex",
-          border: "1px solid red",
+          // border: "1px solid red",
           justifyContent: "space-between",
           alignItems: "center",
           width: "80vw",

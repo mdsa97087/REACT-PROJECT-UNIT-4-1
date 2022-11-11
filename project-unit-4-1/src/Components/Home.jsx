@@ -129,7 +129,13 @@ function Home() {
               effectDelay={400}
               autoPlayDelay={2000}
             >
-              <Slide>
+              <Slide
+              style={{
+                border: "1px solid yellow",
+                width: "850px",
+                height: "450px",
+              }}
+              >
                 <img
                   className="slideimg"
                   style={{

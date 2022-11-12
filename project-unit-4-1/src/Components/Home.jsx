@@ -89,7 +89,7 @@ function Home() {
           <div
             style={{
               display: "grid",
-              border: "1px solid blue",
+              // border: "1px solid blue",
               width: "230px",
               height: "400px",
               paddingLeft: "15px",
@@ -115,31 +115,31 @@ function Home() {
           </div>
           <div
             style={{
-              border: "1px solid red",
-              width: "850px",
+              // border: "1px solid red",
+              width: "870px",
               height: "400px",
             }}
           >
             <ImageSlider
               style={{
-                border: "1px solid red",
-                width: "850px",
+                // border: "1px solid red",
+                width: "870px",
                 height: "400px",
               }}
               effectDelay={400}
               autoPlayDelay={2000}
             >
               <Slide
-              style={{
-                border: "1px solid yellow",
-                width: "850px",
-                height: "450px",
-              }}
+                style={{
+                  // border: "1px solid yellow",
+                  width: "870px",
+                  height: "450px",
+                }}
               >
                 <img
                   className="slideimg"
                   style={{
-                    width: "850px",
+                    width: "870px",
                     height: "400px",
                   }}
                   src="https://uidesign.gbtcdn.com/GB/image/8823/home_1190x420_en.jpg
@@ -151,7 +151,7 @@ function Home() {
                 <img
                   className="slideimg"
                   style={{
-                    width: "850px",
+                    width: "870px",
                     height: "400px",
                   }}
                   src="https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg
@@ -163,7 +163,7 @@ function Home() {
                 <img
                   className="slideimg"
                   style={{
-                    width: "850px",
+                    width: "870px",
                     height: "400px",
                   }}
                   src="https://uidesign.gbtcdn.com/GB/image/8823/electronics_1190x420_en.jpg
@@ -173,6 +173,55 @@ function Home() {
               </Slide>
             </ImageSlider>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+         >
+          <img
+            src="https://uidesign.gbtcdn.com/GB/image/8823/ortur_master3_230%C3%97120_en.jpg
+            "
+            alt=""
+          />
+          <img
+            src="https://uidesign.gbtcdn.com/GB/image/7257/230_120_en.jpg
+            "
+            alt=""
+          />
+          <img
+            src="https://uidesign.gbtcdn.com/GB/image/6874/230x120b_en.jpg
+            "
+            alt=""
+          />
+          <img
+            src="https://uidesign.gbtcdn.com/GB/image/6080/230x120.jpg?imbypass=true
+            "
+            alt=""
+          />
+        </div>
+        <div
+        style={{
+          width:'1000px',
+          margin:'auto'
+        }}
+         >
+          <img src="https://uidesign.gbtcdn.com/GB/image/8823/eleven_1190x210_en.jpg
+          " alt="" 
+            width='1000px'
+          />
+        </div>
+        <div>
+        <h1>COLLECTION</h1>
+        <div>
+          <img src="
+          " alt="" />
+        </div>
         </div>
       </div>
     </>
